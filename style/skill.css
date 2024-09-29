@@ -1,0 +1,39 @@
+.skill h2 {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.skill .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin: 1.5vw auto;
+    /* background: blue; */
+}
+
+.skill .box .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9vw;
+    flex-direction: column;
+    border-radius: .5vw;
+    flex-basis: 18%;
+    margin-top: 1vw;
+    height: 9vw;
+    background: #1f1f1f;
+    transition: .25s all;
+}
+
+.skill .box .item img {
+    width: 7vw;
+}
+
+.skill .box .item:hover {
+    filter: drop-shadow(0 0 0.15rem #ffbf50);
+    cursor: pointer;
+}

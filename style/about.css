@@ -1,0 +1,30 @@
+.about h2 {
+    margin-top: 4vw;
+    font-size: 2vw;
+    margin-left: 19vw;
+    margin-bottom: 1vw;
+    font-weight: 600;
+}
+
+.about {
+    height: 13vw;
+}
+
+.about .aboutbox {
+    margin-left: 8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.about .aboutbox .line {
+    height: 0.15vw;
+    margin-right: .5vw;
+    width: 5vw;
+    margin-top: .7vw;
+    background: #ffbf50;
+}
+
+.about .aboutbox span {
+    width: 70%;
+    font-size: 1vw;
+}
