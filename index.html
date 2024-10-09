@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="./style/home.css">
     <link rel="stylesheet" href="./style/about.css">
     <link rel="stylesheet" href="./style/education.css">
+    <link rel="stylesheet" href="./style/contact.css">
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="./style/skill.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="app.js"></script>
   </head>
   <body>
     <nav>
       <img src="./img/logo.png" alt="logo" />
-      <div>
-        <a href="" class="active">About</a>
-        <a href="">Education</a>
-        <a href="">Contact</a>
+      <div class="box">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#contacts">Contact</a>
       </div>
     </nav>
     <section class="land">
@@ -28,16 +31,16 @@
           Engineering student <span>&</span> <br>
           Indy Game Developer
         </h2>
-        <div class="contact">contact me</div>
+        <div class="contact" onclick="contactSlide()">contact me</div>
       </div>
-      <img src="img/me.png" alt="my photo"/>
+      <img src="img/kan.png" alt="my photo"/>
       <div class="contactbox">
         <div class="line"></div>
         <a href="https://www.facebook.com/kan.phacharawat" target="_blank" class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
         <a href="https://www.instagram.com/_sxsmm/" target="_blank" class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <h2>About</h2>
       <div class="aboutbox">
         <div class="line"></div>
@@ -90,8 +93,76 @@
         </div>
       </div>
     </section>
-    <section class="education">
+    <section class="education" id="education">
       <h2>Education</h2>
+      <div class="box">
+        <div class="item">
+          <div class="year">2018</div>
+          <div class="decoration">
+            <div class="circle"></div>
+            <div class="line"></div>
+          </div>
+          <div class="data">
+            <div class="title">Panyasak School</div>
+            <span class="subtitle">Bangkok, Thailand</span>
+            <div class="detail">Completed primary education with a focus on fundamental academic skills. Developed early interest in technology through school computer classes and extracurricular activities.</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="year">2021</div>
+          <div class="decoration">
+            <div class="circle"></div>
+            <div class="line"></div>
+          </div>
+          <div class="data">
+            <div class="title">Bangpakok Wittayakom School</div>
+            <span class="subtitle">Bangkok, Thailand</span>
+            <div class="detail">Completed lower secondary education with a strong academic record in mathematics, science, and technology. Participated in various school activities and developed a passion for computers and programming.</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="year">2023</div>
+          <div class="decoration">
+            <div class="circle"></div>
+            <div class="line"></div>
+          </div>
+          <div class="data">
+            <div class="title">General Education Development (GED)</div>
+            <span class="subtitle">Bangkok, Thailand</span>
+            <div class="detail">Successfully completed the GED exams, showcasing a strong foundation in subjects such as mathematics, science, and language arts. This certification allowed me to move forward with my goal of studying computer engineering at the university level.</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="year">Present</div>
+          <div class="decoration">
+            <div class="circle"></div>
+            <div class="line"></div>
+          </div>
+          <div class="data">
+            <div class="title">CPE KMUTT</div>
+            <span class="subtitle">Bangkok, Thailand</span>
+            <div class="detail">Currently pursuing a degree in Computer Engineering, focusing on areas such as software development, algorithms, data structures, and artificial intelligence. Actively participating in engineering projects and competitions to sharpen both technical and problem-solving skills.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <h2>Contact Me</h2>
+      <div class="box">
+        <div class="item">
+          <ion-icon name="call"></ion-icon>
+          <span>081-509-7145</span>
+        </div>
+        <div class="item">
+          <ion-icon name="mail-unread"></ion-icon>
+          <span>peakgawatphokhin@gmail.com</span>
+        </div>
+        <div class="item">
+          <ion-icon name="navigate-circle"></ion-icon>
+          <span>Bangkok, Thailand</span>
+        </div>
+      </div>
+      <h2 class="footer">"Thanks For Scrolling"</h2>
     </section>
   </body>
 </html>
