@@ -26,5 +26,5 @@ To view and edit this project, you will need:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/KanPhacharawat/portfolio-cpe101
 2. Start editing the website structure as you wish!
